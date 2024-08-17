@@ -2,8 +2,8 @@ const SoptLogoLight = ({ className }: { className?: string }) => {
   return (
     <svg
       className={className}
-      width="1306"
-      height="454"
+      width="87"
+      height="30"
       viewBox="0 0 1306 454"
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
