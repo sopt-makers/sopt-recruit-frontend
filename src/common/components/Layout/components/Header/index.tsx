@@ -5,7 +5,7 @@ import MakersLogoDark from '@assets/MakersLogoDark';
 import MakersLogoLight from '@assets/MakersLogoLight';
 import SoptLogoDark from '@assets/SoptLogoDark';
 import SoptLogoLight from '@assets/SoptLogoLight';
-import { useDevice } from '@hooks/useDevice';
+import { DeviceTypeContext } from '@store/deviceTypeContext';
 import { RecruitingInfoContext } from '@store/recruitingInfoContext';
 import { ThemeContext } from '@store/themeContext';
 
@@ -14,6 +14,7 @@ import MenuList from './Nav/MenuList';
 import { containerSizeVer, containerVar, logoVar } from './style.css';
 
 const Header = () => {
+  const { deviceType } = useContext(DeviceTypeContext);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const deviceType = useDevice();
