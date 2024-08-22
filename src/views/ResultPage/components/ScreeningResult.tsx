@@ -61,7 +61,7 @@ const Content = ({ pass }: { pass?: boolean }) => {
               서류 검토 결과,${deviceType !== 'DESK' ? '\n' : ''} ${name}님은 면접 대상자로 선정되셨습니다.
 
               ${season}기 ${group} 면접은 ${formattedInterviewStart} ~ ${formattedInterviewEnd} 양일 간 
-              오프라인으로 진행될 예정입니다.
+              온라인으로 진행될 예정입니다.
   
               모든 면접 대상자 분들을 대상으로 면접 가능 시간을 조사하려 합니다. ${deviceType === 'DESK' ? '\n' : ''}아래 구글폼을 금일 20시 (${formattedApplicationPassConfirmStart} 오후 8시) 까지 제출해주세요.
             `}
