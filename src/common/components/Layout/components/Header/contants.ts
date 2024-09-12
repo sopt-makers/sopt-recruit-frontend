@@ -12,12 +12,6 @@ export const MENU_ITEMS: menuItemsTypes[] = [
     amplitudeId: 'click-gnb-recruitment_notice',
     target: '_blank',
   },
-  {
-    text: '문의하기',
-    path: 'https://pf.kakao.com/_JdTKd',
-    amplitudeId: 'click-gnb-ask',
-    target: '_blank',
-  },
 ];
 
 export const MENU_ITEMS_MAKERS: menuItemsTypes[] = [
